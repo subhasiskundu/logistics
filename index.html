@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <title>Logistics</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar" class="logistic-nav fixed-top auto-hiding-navbar navbar navbar-expand-lg navbar-light" id="main_navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/Logo.png" class="d-block w-100" alt="Logistics">
+                </a>
+                <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
+                    </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                    About Us
+                                </a>
+                            <ul class="dropdown-menu border-0 rounded-0" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Our Service</a></li>
+                                <li><a class="dropdown-item" href="#">Courier</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-item dropdown-toggle second-level" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                            Our Team
+                                        </a>
+                                    <ul class="dropdown-menu border-0 rounded-0" aria-labelledby="navbarDropdown1">
+                                        <li><a class="dropdown-item" href="#">Team A</a></li>
+                                        <li><a class="dropdown-item" href="#">Team B</a></li>
+                                    </ul>
+                                </li>                                
+                                <li><a class="dropdown-item" href="#">News</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="homeCarouselCaption" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#homeCarouselCaption" data-slide-to="0" class="active"></li>
+                <li data-target="#homeCarouselCaption" data-slide-to="1"></li>
+                <li data-target="#homeCarouselCaption" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/carousel1.jpg" class="d-block" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h1>Worldwide Freight Service</h1>
+                        <p>Global Logistic Solution Provider</p>
+                        <a class="btn btn-primary btn-logistics">Get Quote</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel2.jpg" class="d-block" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h1>Worldwide Freight Service</h1>
+                        <p>Global Logistic Solution Provider</p>
+                        <a class="btn btn-primary btn-logistics">Get Quote</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel3.jpg" class="d-block" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h1>Worldwide Freight Service</h1>
+                        <p>Global Logistic Solution Provider</p>
+                        <a class="btn btn-primary btn-logistics">Get Quote</a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#homeCarouselCaption" role="button" data-slide="prev">
+                      <span class="left-arrow" aria-hidden="true">
+                          <img src="./images/Arrow.png" class="d-block w-100" alt="prev">
+                      </span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                <a class="carousel-control-next" href="#homeCarouselCaption" role="button" data-slide="next">
+                      <span class="right-arrow" aria-hidden="true">
+                          <img src="./images/Arrow.png" class="d-block w-100" alt="prev">
+                        </span>
+                      <span class="sr-only">Next</span>
+                    </a>
+            </div>
+        </div>
+        <!-- *********************Service Section************************ -->
+        <div class="container">
+            <div class="row services my-3">
+                <div class="col-md-12">
+                    <h3 class="body-title text-center mt-4">OUR SERVICES</h3>
+                    <p class="text-center">Lorem Ipsum is simply dummy text of the printing </p>
+                    <div class="row mt-5">
+                        <div class="col-md-6">
+                            <div class="service-card pl-5 pb-3">
+                                <div class="service-card-header air">
+                                    <h5 class="body-title text-left mt-4">
+                                        <span class="service-header-icon">
+                                            <img src="./images/AirFreight-icon.png" class="d-block w-100" alt="Air Freight"></a>
+                                        </span> AIR FREIGHT</h5>
+                                </div>
+                                <div class="service-card-body">
+                                    <p class="text-left mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                        printer took a galley of type and scrambled it to make a type specimen book. It has
+                                        survived not only five centuries.
+                                    </p>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-card pl-5 pb-3">
+                                <div class="service-card-header">
+                                    <h5 class="body-title text-left mt-4">
+                                        <span class="service-header-icon">
+                                                    <img src="./images/RoadFreight-icon.png" class="d-block w-100" alt="Road Freight"></a>
+                                                </span> ROAD FREIGHT</h5>
+                                </div>
+                                <div class="service-card-body">
+                                    <p class="text-left mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                        printer took a galley of type and scrambled it to make a type specimen book. It has
+                                        survived not only five centuries,
+                                    </p>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-card pl-5 pb-3">
+                                <div class="service-card-header">
+                                    <h5 class="body-title text-left mt-4">
+                                        <span class="service-header-icon">
+                                                    <img src="./images/OceanFreight-icon.png" class="d-block w-100" alt="Ocean Freight"></a>
+                                                </span> OCEAN FREIGHT</h5>
+                                </div>
+                                <div class="service-card-body">
+                                    <p class="text-left mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                        printer took a galley of type and scrambled it to make a type specimen book. It has
+                                        survived not only five centuries,
+                                    </p>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-card pl-5 pb-3">
+                                <div class="service-card-header">
+                                    <h5 class="body-title text-left mt-4">
+                                        <span class="service-header-icon">
+                                            <img src="./images/RailFreight-icon.png" class="d-block w-100" alt="Rail Freight"></a>
+                                        </span> RAIL FREIGHT</h5>
+                                </div>
+                                <div class="service-card-body">
+                                    <p class="text-left mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                        has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                        printer took a galley of type and scrambled it to make a type specimen book. It has
+                                        survived not only five centuries,
+                                    </p>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- **********************Clients Section*********************** -->
+        <div class="container-fluid">
+            <div class="row mt-3 bg-light">
+                <div class="container">
+                    <div class="row clients row mt-3 bg-light py-4">
+                        <div class="col-md-12">
+                            <h3 class="body-title text-center">OUR CLIENTS</h3>
+                            <p class="text-center">and what they says </p>
+                            <div class="row mt-5">
+                                <div class="col-md-3">
+                                    <div class="client">
+                                        <div class="icon mr-3">
+                                            <img src="./images/Customers-icon.png" class="d-block w-100" alt="Rail Freight" /></a>
+                                        </div>
+                                        <div class="client-body client-body mt-1">
+                                            <h3 class="h4 mb-0">760</h3>
+                                            <p class="text-dark text-left">Satisfied Clients</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="client">
+                                        <div class="icon mr-3">
+                                            <img src="./images/Globe-icon.png" class="d-block w-100" alt="Rail Freight" /></a>
+                                        </div>
+                                        <div class="client-body client-body mt-1">
+                                            <h3 class="h4 mb-0">62</h3>
+                                            <p class="text-dark text-left">Countries Cover</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="client">
+                                        <div class="icon mr-3">
+                                            <img src="./images/Goods-icon.png" class="d-block w-100" alt="Rail Freight" /></a>
+                                        </div>
+                                        <div class="client-bodyclient-body mt-1">
+                                            <h3 class="h4 mb-0">4600M</h3>
+                                            <p class="text-dark text-left">Tons of Goods</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="client">
+                                        <div class="icon mr-3">
+                                            <img src="./images/Delivered-icon.png" class="d-block w-100" alt="Rail Freight" /></a>
+                                        </div>
+                                        <div class="client-bodyclient-body mt-1">
+                                            <h3 class="h4 mb-0">6500M</h3>
+                                            <p class="text-dark text-left">Delivered Pavkages</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ***********************Who We Are Section************************** -->
+        <div class="container-fluid bg-video-container">
+            <div class="row feature">
+                <div class="col-md-6 order-md-2">
+                    <div class="text-container p-lg-5">
+                        <h2 class="feature-heading">WHO WE ARE</h2>
+                        <p class="lead pt-3 mb-1">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+                            Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+                            commodo.Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                            euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. </p>
+                        <p class="lead pt-3 mb-1">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper.
+                            Praesent commodo cursus magna, vel </p>
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1 px-0">
+                    <div class="video-container">
+                        <video id="logistic-video" width="100%">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            <source src="https://www.w3schools.com/html/mov_bbb.webm" type="video/webm">
+                        </video>
+                        <div id="vimage" class="video-image"><img src="./images/Pallets.jpg" class="d-block w-100" alt="Pallets"></div>
+                        <button id="play" class="video-control" onclick="playPause()"><img src="./images/Play-icon.png" class="d-block w-100" alt="Play Button"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ********************Quotation Section*********************** -->
+        <div class="container card rounded-0 p-0 quotation-container shadow">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs px-2 pt-3">
+                <li class="nav-item px-md-5 ">
+                    <a class="nav-link border-0 border-bottom px-0 active" data-toggle="tab" href="#track">TRACK & TRACE</a>
+                </li>
+                <li class="nav-item px-md-5 ">
+                    <a class="nav-link border-0 border-bottom px-0" data-toggle="tab" href="#quote">GET A QUOTE</a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div id="track" class="container track tab-pane p-md-5 active">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="track-details mb-5">
+                            <p>Tracking your shipments with Logistics</p>
+                            <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                                semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus
+                                ac cursus commodo.Donec ullamcorper nulla non metus auctor fringilla. vel scelerisque nisl
+                                consectetur. Fusce dapibus, tellus ac cursus commodo.Donec ullamcorper nulla non metus auctor
+                                fringilla.</p>
+                        </div>
+                        <form class="tracking-form mt-5">
+                            <div class="form-row">
+                                <div class="col form-group">
+                                    <input type="text" name="txtheight" class="form-control rounded-0" placeholder="Enter your tracking number" value="" />
+                                </div>
+                                <div class="col form-group">
+                                    <button type="submit" name="btnSubmit" class="btn btn-primary btn-logistics">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="track-img">
+                        <img src="images/Track_Packages.png" alt="Track Packages" />
+                    </div>
+
+                </div>
+                <div id="quote" class="container tab-pane p-md-5 fade">
+                    <form class="quotation-form">
+                        <h3 class="mb-3">Request a free Quote</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="txtName" class="form-control rounded-0" placeholder="Full Name *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control rounded-0">
+                                <option>Freight Type</option>
+                            </select>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col form-group">
+                                        <select class="form-control rounded-0 mr-md-2">
+                                        <option>Departure City</option>
+                                    </select>
+                                    </div>
+                                    <div class="col form-group">
+                                        <select class="form-control rounded-0 mr-md-2">
+                                        <option>Destination City</option>
+                                    </select>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col form-group">
+                                        <input type="text" name="txtheight" class="form-control rounded-0" placeholder="Height" value="" />
+                                    </div>
+                                    <div class="col form-group">
+                                        <input type="text" name="txtWidth" class="form-control rounded-0" placeholder="Width" value="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="txtPhone" class="form-control rounded-0" placeholder="Phone Number *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="txtEmail" class="form-control rounded-0" placeholder="Your Email *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="txtTotalWeight" class="form-control rounded-0" placeholder="Total Weight" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="txtMessage" class="form-control rounded-0" placeholder="Message" value="" />
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group text-center">
+                                    <button type="submit" name="btnSubmit" class="btn btn-primary btn-logistics">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- ***********************News Section************************** -->
+
+        <div class="container-fluid">
+            <div class="row clients row mt-3 py-4">
+                <div class="col-md-12 mb-3 mt-3">
+                    <h3 class="body-title text-center">NEWS</h3>
+                </div>
+                <div class="col-md-3 px-0">
+                    <div class="news-card">
+                        <div class="img-container">
+                            <img src="images/Flight.jpg" alt="Flight" />
+                            <div class="img-text text-center">
+                                <h5>AIR TRANSPORT</h5>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <div class="text text-left ">
+                                <h5 class="h5 mb-3">AIR TRANSPORT</h5>
+                                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                                    semper. Praesent commodo cursus magna</p>
+                                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                                    semper. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 px-0">
+                    <div class="news-card">
+                        <div class="img-container">
+                            <img src="images/Ship.jpg" alt="Ship" />
+                            <div class="img-text text-center">
+                                <h5>SEA TRANSPORT</h5>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <div class="text text-left">
+                                <h5 class="h5 mb-3">SEA TRANSPORT</h5>
+                                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                                    semper. Praesent commodo cursus magna</p>
+                                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                                    semper. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 px-0">
+                    <div class="news-card">
+                        <div class="img-container">
+                            <img src="images/Train.jpg" alt="Train" />
+                            <div class="img-text text-center">
+                                <h5>RAIL TRANSPORT</h5>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <div class="text text-left">
+                                <h5 class="h5 mb-3">RAIL TRANSPORT</h5>
+                                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                                    semper. Praesent commodo cursus magna</p>
+                                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                                    semper. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 px-0">
+                    <div class="news-card">
+                        <div class="img-container">
+                            <img src="images/Truck.jpg" alt="Truck" />
+                            <div class="img-text text-center">
+                                <h5>ROAD TRANSPORT</h5>
+                            </div>
+                        </div>
+                        <div class="overlay">
+                            <div class="text text-left">
+                                <h5 class="h5 mb-3">ROAD TRANSPORT</h5>
+                                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                                    semper. Praesent commodo cursus magna</p>
+                                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                                    semper. Praesent commodo cursus magna</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ***********************Testimonial & Why choose Section************************** -->
+
+        <div class="container">
+            <div class="row my-3">
+                <div class="col-lg-6 col-md-12 text-center">
+                    <h3 class="body-title">TESTIMONIALS</h3>
+                    <P>and what our customers says</P>
+                    <div id="testimonialCaption" class="carousel testimonial slide mt-5 carousel-fade" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#testimonialCaption" data-slide-to="0" class="active"></li>
+                            <li data-target="#testimonialCaption" data-slide-to="1"></li>
+                            <li data-target="#testimonialCaption" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="tsmnl-container">
+                                    <div class="carousel-caption d-md-block text-left">
+                                        <p class="testi-text">There are many variations of passages of Lorem Ipsum available, but the majority
+                                            have suffered alteration in some form, by injected humour, or randomised words
+                                            which don't look even slightly believable. If you are going to use a passage
+                                            of Lorem Ipsum</p>
+
+                                        <div class="client-dtl ml-auto pt-md-4">
+                                            <div class="icon mr-3">
+                                                <img src="./images/Client-icon.png" class="d-block w-100" alt="Client icon">
+                                            </div>
+                                            <div class="client-dtl-body client-body mt-1 ">
+                                                <p class="text-dark text-left pt-4 mt-1 mb-0">jon Doe, Company Inc</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="tsmnl-container">
+                                    <div class="carousel-caption d-md-block text-left">
+                                        <p class="testi-text">If you are going to use a passage
+                                                of Lorem Ipsum. There are many variations of passages of Lorem Ipsum available, but the majority
+                                            have suffered alteration in some form, by injected humour, or randomised words
+                                            which don't look even slightly believable. </p>
+
+                                        <div class="client-dtl ml-auto pt-md-4">
+                                            <div class="icon mr-3">
+                                                <img src="./images/Client-icon.png" class="d-block w-100" alt="Client icon">
+                                            </div>
+                                            <div class="client-dtl-body client-body mt-1 ">
+                                                <p class="text-dark text-left pt-4 mt-1 mb-0">jon1 Doe, Company1 Inc</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="tsmnl-container">
+                                    <div class="carousel-caption d-md-block text-left">
+                                        <p class="testi-text">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.Donec </p>
+
+                                        <div class="client-dtl ml-auto pt-md-4">
+                                            <div class="icon mr-3">
+                                                <img src="./images/Client-icon.png" class="d-block w-100" alt="Client icon">
+                                            </div>
+                                            <div class="client-dtl-body client-body mt-1 ">
+                                                <p class="text-dark text-left pt-4 mt-1 mb-0">jon2 Doe, Company2 Inc</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 text-center">
+                    <h3 class="body-title">WHY CHOOSE US</h3>
+                    <P>Logistics Business Experience You Can Trust</P>
+
+                    <div class="why-choose accordion text-left mt-5" id="accordionExample">
+                        <div class="card rounded-0 mb-2">
+                            <div class="card-header p-0" id="headingOne">
+                                <h2 class="mb-0">
+                                    <a type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne">Lorem Ipsum is simply dummy text 
+                                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                        suffered alteration in some form, by injected humour, or randomised words which don't
+                                        look even slightly believable. If you are going to use a passage of Lorem Ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card rounded-0 mb-2">
+                            <div class="card-header p-0" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <a type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo">It is a long established fact that a reader will 
+                                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                        suffered alteration in some form, by injected humour, or randomised words which don't
+                                        look even slightly believable. If you are going to use a passage of Lorem Ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card rounded-0 mb-2">
+                            <div class="card-header p-0" id="headingThree">
+                                <h2 class="mb-0">
+                                    <a type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree">There are many variations of passages of Lorem
+                                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                    </a>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                        suffered alteration in some form, by injected humour, or randomised words which don't
+                                        look even slightly believable. If you are going to use a passage of Lorem Ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- *****Footer****************** -->
+    <footer class="page-footer font-small">
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5 pt-3 text-white">
+            <!-- Grid row -->
+            <div class="row my-4">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-md-6 mb-md-0 mb-4 text-left">
+                    <h5>Logistics</h5>
+                    <div class="footer-col-container mt-4">
+                        <p class="mb-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s.</p>
+                        <p class="mb-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's</p>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-md-6 mb-md-0 mb-4 text-left">
+                    <h5>Contact</h5>
+                    <div class="footer-col-container mt-4">
+                        <p class="mb-2">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+                            in some</p>
+                        <p class="mb-2"><span><img src="./images/Location-icon.png" alt="Location"></span> Pune</p>
+                        <p class="mb-2"><span><img src="./images/Email-icon.png" alt="Email"></span> info@centrio.com</p>
+                        <p class="mb-2"><span><img src="./images/Phone-icon.png" alt="Phone"></span> 123 456 7890</p>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-md-6 mb-md-0 mb-4 mt-md-3 text-left">
+                    <h5>Latest Tweets</h5>
+                    <div class="footer-col-container mt-4">
+                        <div class="twiter-card pl-5 pb-3">
+                            <span class="service-header-icon"><img src="./images/Twitter-icon.png" alt="Twitter" /></span>
+                            <p class="text-left mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="time">5 Hours Ago</p>
+                        </div>
+                        <div class="twiter-card pl-5 pb-3">
+                            <span class="service-header-icon"><img src="./images/Twitter-icon.png" alt="Twitter" /></span>
+                            <p class="text-left mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="time">5 Hours Ago</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-md-6 mb-md-0 mb-4 mt-md-3 text-left">
+                    <h5>News Letter</h5>
+                    <div class="footer-col-container mt-4">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text</p>
+                        <div class="newsletter-footer input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary btn-logistics" type="button">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="copy-right">
+            <div class="container">
+                <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <p class="mb-0 text-white"> © 2020 Copyright. All Rights Reserved</p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+                        <!-- Facebook -->
+                        <a class="fb-ic" href="#"><img src="./images/SocialMedia1-icon.png" alt="Twitter" /></a>
+                        <!-- Twitter -->
+                        <a class="tw-ic" href="#"><img src="./images/SocialMedia2-icon.png" alt="facebook" /></a>
+                        <!-- Google +-->
+                        <a class="gplus-ic" href="#"><img src="./images/SocialMedia3-icon.png" alt="Linkedin" /></a>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row-->
+            </div>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="./scripts/scripts.js"></script>
+    <script>
+
+        $(function () {
+            $('#main_navbar').bootnavbar();
+        });
+
+        var myVideo = document.getElementById("logistic-video");
+        function playPause() {
+            if (myVideo.paused)
+                myVideo.play();
+            document.getElementById("vimage").style.display = "none";
+            document.getElementById("play").style.display = "none";
+        }
+
+        $(document).ready(function () {
+            $('.second-button').on('click', function () {
+                $('.animated-icon').toggleClass('open');
+            });
+            // Add minus icon for collapse element which is open by default
+            $(".collapse.show").each(function () {
+                $(this).prev(".card-header").find(".fa").addClass("fa-chevron-up").removeClass("fa-chevron-down");
+            });
+
+            // Toggle plus minus icon on show hide of collapse element
+            $(".collapse").on('show.bs.collapse', function () {
+                $(this).prev(".card-header").find(".fa").removeClass("fa-chevron-down").addClass("fa-chevron-up");
+            }).on('hide.bs.collapse', function () {
+                $(this).prev(".card-header").find(".fa").removeClass("fa-chevron-up").addClass("fa-chevron-down");
+            });
+        });
+
+        $(window).scroll(function () {
+            var height = $(window).scrollTop();
+            if (height >= 550) {
+                $('.navbar').addClass('sticky');
+            } else {
+                $('.navbar').removeClass('sticky');
+            }
+        });
+    </script>
+</body>
+
+</html>
