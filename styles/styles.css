@@ -469,7 +469,7 @@ button, button:focus, button:active {
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {  
+@media only screen and (max-width: 640px) {  
 
     .carousel-caption h1 {
         font-size: 24pt;
@@ -756,5 +756,18 @@ button, button:focus, button:active {
         right: 15px;
         position: absolute;
         top: 22px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px){ 
+
+    .carousel-caption {
+        top: 26%;
+    }
+
+    .track-img {
+        top: 196px;
+        right: -33px;
+        width: 65%;
     }
 }
