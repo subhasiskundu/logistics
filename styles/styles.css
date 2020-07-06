@@ -22,6 +22,7 @@ Tabs:
 
 body {
     color: #000;
+    font-family: 'Open Sans', sans-serif;
 }
 .dropdown-toggle::after {
     content: none;
@@ -165,6 +166,7 @@ button, button:focus, button:active {
 
 .body-title {
     color: #065575;
+    font-weight: 600;
 }
 
 .service-card-header {
@@ -452,16 +454,6 @@ button, button:focus, button:active {
   }
   .carousel-fade .carousel-inner .active {
       opacity: 1;
-  }
-  .carousel-fade .carousel-inner .active.left,
-  .carousel-fade .carousel-inner .active.right {
-    left: 0;
-    opacity: 0;
-    z-index: 1;
-  }
-  .carousel-fade .carousel-inner .next.left,
-  .carousel-fade .carousel-inner .prev.right {
-    opacity: 1;
   }
   .carousel-fade .carousel-control {
     z-index: 2;
